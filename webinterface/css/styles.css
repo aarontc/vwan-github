@@ -1,0 +1,20 @@
+html { font: normal normal normal 14px serif; }
+.area { overflow: visible; width: 100%; } /* this is for IE */
+.area:after { content:"."; display:block; line-height:0px; font-size:0px; visibility:hidden; clear:both; } /* this is for firefox */
+div h3.heading { width: 300px; margin: 10px auto; text-align: center; font-size: 16.4px; font-weight: bold; }
+
+form#login,form#signup { margin: 0 auto; }
+form#login .outline, form#signup .outline { padding: 5px 0; border-top: 1px solid black; border-bottom: 1px solid black; }
+form#login { width: 300px; }
+form#signup { width: 430px; }
+form#login div,form#signup div { padding: 2px 0; }
+form#login div label,form#signup div label { display: block; text-align: right; float: left; }
+form#login div label { width: 100px; }
+form#signup div label { width: 180px; }
+form#login div input[type='text'],
+form#login div input[type='password'],
+form#signup div input[type='text'],
+form#signup div input[type='password'] { display: block; width: 150px; float: left; }
+form#signup div input[type='text']#name,form#signup div input[type='text']#email { width: 230px; }
+form#login div.submit,form#signup div.submit { text-align: center; }
+#register { width: 300px; margin: 0 auto; padding-top: 10px; text-align: center; }
